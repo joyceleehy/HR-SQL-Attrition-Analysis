@@ -3,6 +3,11 @@
 ## Project Objective
 This project analyzes employee attrition using SQL to identify workforce patterns related to department, overtime, job role, and monthly income. The goal is to help HR teams understand where employee turnover risk is higher and suggest practical retention actions.
 
+## Dashboard Preview
+![HR Employee Attrition Dashboard](dashboard-preview.png)
+
+View the dashboard file: [dashboard.html](dashboard.html)
+
 ## Dataset
 Dataset: IBM HR Analytics Employee Attrition Dataset
 
@@ -35,6 +40,7 @@ The dataset includes employee information such as department, job role, monthly 
 - `queries/` - SQL queries used for analysis
 - `insights.md` - detailed insights, business impact, recommendations, and suggested actions
 - `dashboard.html` - simple dashboard summary of key results
+- `dashboard-preview.png` - dashboard preview image shown in this README
 - `hr_attrition.db` - SQLite database file
 
 ## Key Findings
