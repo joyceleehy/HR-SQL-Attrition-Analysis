@@ -1,63 +1,91 @@
 # HR Employee Attrition Analysis Using SQL
 
-## Project Objective
-This project analyzes employee attrition using SQL to identify workforce patterns related to department, overtime, job role, and monthly income. The goal is to help HR teams understand where employee turnover risk is higher and suggest practical retention actions.
+## Project Overview
 
+This project analyzes employee attrition using SQL to identify key workforce patterns and potential risk factors affecting employee retention.
+
+The analysis focuses on how department, job role, overtime, and income levels relate to employee attrition. The goal is to help HR teams understand where turnover risk is highest and support data-driven retention strategies.
+
+---
+
+## Business Objective
+
+Employee attrition increases hiring costs, reduces productivity, and leads to knowledge loss.
+
+This project aims to answer:
+
+- What is the overall employee attrition rate?
+- Which departments have the highest attrition?
+- Does overtime influence employee attrition?
+- Which job roles are most at risk of leaving?
+- How does income level relate to attrition?
+
+---
 ## Dashboard Preview
 ![HR Employee Attrition Dashboard](dashboard-preview.png)
 
 View the dashboard file: [dashboard.html](dashboard.html)
 
+---
+---
+
 ## Dataset
-Dataset: IBM HR Analytics Employee Attrition Dataset
 
-The dataset includes employee information such as department, job role, monthly income, overtime status, and attrition status.
+- **Source:** IBM HR Analytics Employee Attrition Dataset  
+- **Contents:** Employee demographics, job role, department, monthly income, overtime status, and attrition flag  
 
-## Tools Used
-- SQLite: used as the database engine to store and query the HR dataset.
-- DB Browser for SQLite: used to import CSV files, create the SQLite database, and run SQL queries.
-- Visual Studio Code: used to write and organize SQL files, documentation, and project notes.
-- GitHub Desktop: used to commit the project files and publish the portfolio project to GitHub.
-- HTML/CSS: used to create a lightweight dashboard that summarizes the main findings.
+---
 
-## Business Questions
-1. What is the overall employee attrition rate?
-2. Which department has the highest attrition rate?
-3. Do employees who work overtime have higher attrition?
-4. Which job roles have the highest attrition rate?
-5. Which income group has the highest attrition rate?
+## Tools & Technologies
 
-## SQL Skills Practiced
-- SELECT
-- GROUP BY
-- ORDER BY
-- CASE WHEN
-- Aggregate functions
-- Basic HR analytics interpretation
+- SQLite – Database management and SQL querying  
+- DB Browser for SQLite – Data import and query execution  
+- SQL – Data analysis and transformation  
+- HTML/CSS – Dashboard summary visualization  
+- GitHub – Version control and portfolio hosting  
 
-## Project Files
-- `data/` - source CSV files
-- `queries/` - SQL queries used for analysis
-- `insights.md` - detailed insights, business impact, recommendations, and suggested actions
-- `dashboard.html` - simple dashboard summary of key results
-- `dashboard-preview.png` - dashboard preview image shown in this README
-- `hr_attrition.db` - SQLite database file
+---
 
-## Key Findings
-- Overall attrition rate: 16.12%.
-- Sales had the highest department attrition rate at 20.63%.
-- Employees who worked overtime had a much higher attrition rate at 30.53%, compared with 10.44% for employees who did not work overtime.
-- Sales Representative had the highest job role attrition rate at 39.76%.
-- Low-income employees had the highest attrition rate by income group at 28.61%.
+## Key Insights
 
-## Business Impact
-High attrition can increase hiring costs, reduce team productivity, and create knowledge gaps. The results suggest that Sales-related roles, overtime workload, and lower income bands may be important areas for HR leaders to review when designing retention strategies.
+- Overall attrition rate: **16.12%**
+- Sales department has the highest attrition rate at **20.63%**
+- Employees working overtime show significantly higher attrition (**30.53%**) compared to non-overtime employees (**10.44%**)
+- Sales Representative role has the highest attrition rate at **39.76%**
+- Low-income employees have the highest attrition rate at **28.61%**
 
-## Recommendations
-- Review workload and overtime patterns, especially for employees working overtime frequently.
-- Investigate Sales department turnover drivers such as targets, incentives, manager support, and career growth.
-- Review compensation competitiveness for lower-income employees.
-- Build focused retention plans for Sales Representatives and other high-risk roles.
+---
+
+## Key Takeaways
+
+The analysis shows that attrition is strongly influenced by:
+- Overtime workload
+- Income level
+- Job role type (especially Sales-related roles)
+
+These patterns suggest that targeted retention strategies in high-risk groups may help reduce employee turnover.
+
+---
+
+## Business Recommendations
+
+- Review overtime workload distribution across departments  
+- Investigate Sales department attrition drivers (targets, incentives, management support)  
+- Reassess compensation structure for low-income employees  
+- Develop retention strategies for high-risk job roles such as Sales Representatives  
+
+---
+## SQL Skills Demonstrated
+
+- SELECT statements  
+- GROUP BY aggregation  
+- CASE WHEN segmentation  
+- COUNT and AVG calculations  
+- Attrition rate computation  
+- Business-focused data interpretation  
+
+---
 
 ## Summary
-This project shows how SQL can be used to support HR analytics and identify possible employee retention risk areas. The analysis can help HR teams prioritize deeper investigation and targeted retention actions.
+
+This project demonstrates how SQL can be used to transform raw HR data into actionable insights. The analysis highlights key attrition drivers and provides clear recommendations to support HR decision-making and retention strategy planning.
