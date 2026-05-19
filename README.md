@@ -83,12 +83,15 @@ These patterns suggest that workload balance, compensation structure, and role-s
 ---
 
 ## Project Structure
+
+```text
 data/                  Raw dataset (CSV files)
 queries/               SQL scripts used for analysis
 hr_attrition.db        SQLite database file
 insights.md            Detailed analysis, insights, and recommendations
 dashboard.html         Interactive HTML dashboard
 dashboard-preview.png  Dashboard screenshot for preview
+```
 
 ---
 
