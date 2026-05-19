@@ -73,7 +73,7 @@ These patterns suggest that workload balance, compensation structure, and role-s
 ## Dashboard
 
 ### Interactive Dashboard
-👉 Open dashboard: **dashboard.html**
+👉 Open dashboard: [dashboard.html](dashboard.html)
 
 ### Dashboard Preview
 ![HR Employee Attrition Dashboard](dashboard-preview.png)
